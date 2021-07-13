@@ -10,7 +10,14 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public String fullName() {
+    public String fulltName() {
         return String.format("%s %s", firstName, lastName);
     }
+
+
+    public String sortName() {
+        return String.format("%s, %s", lastName, firstName);
+    }
+
 }
+
